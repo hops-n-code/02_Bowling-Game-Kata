@@ -12,10 +12,9 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>11</java.version>
-        <junit.jupiter.version>5.9.0</junit.jupiter.version>
-        <assertj.version>3.23.1</assertj.version>
-        <maven.maven-surefire-plugin.version>2.22.2</maven.maven-surefire-plugin.version>
+        <java.version>17</java.version>
+        <junit.jupiter.version>5.11.4</junit.jupiter.version>
+        <assertj.version>3.26.3</assertj.version>
         <maven.compiler.release>${java.version}</maven.compiler.release>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <maven.compiler.source>${java.version}</maven.compiler.source>
@@ -35,18 +34,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
-            </plugin>
-            <plugin>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>${maven.maven-surefire-plugin.version}</version>
-            </plugin>
-        </plugins>
-    </build>
-
 </project>
