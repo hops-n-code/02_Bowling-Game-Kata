@@ -12,9 +12,9 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>17</java.version>
-        <junit.jupiter.version>5.11.4</junit.jupiter.version>
-        <assertj.version>3.26.3</assertj.version>
+        <java.version>21</java.version>
+        <junit.jupiter.version>6.0.0</junit.jupiter.version>
+        <assertj.version>3.27.6</assertj.version>
         <maven.compiler.release>${java.version}</maven.compiler.release>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <maven.compiler.source>${java.version}</maven.compiler.source>
